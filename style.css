@@ -1,0 +1,232 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: white;
+}
+.container {
+  width: fit-content;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  padding: 0;
+  margin: 0;
+  font-size: 0;
+}
+
+/* COLUMN 1 STARTED */
+
+.col-1 {
+  background: hsl(31, 77%, 52%);
+  display: inline-block;
+  width: 250px;
+  padding: 10px 0;
+  text-align: left;
+  margin: 0;
+  border-top-left-radius: 7px;
+  border-bottom-left-radius: 7px;
+}
+.col-1 svg {
+  margin: 30px 45px;
+}
+.col-1 h1 {
+  font-family: "Big Shoulders Display", cursive;
+  font-size: 36px;
+  color: hsl(0, 0%, 95%);
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 2px;
+  margin-left: 10px 0;
+  padding: 15px 45px;
+  text-align: left;
+}
+.col-1 p {
+  color: hsla(0, 0%, 100%, 0.75);
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 12px;
+  padding: 10px 45px;
+  line-height: 20px;
+  text-align: left;
+  margin-bottom: 80px;
+  letter-spacing: 1px;
+}
+.btn1 {
+  position: relative;
+  left: 42px;
+  bottom: 35px;
+  width: 150px;
+  height: 45px;
+  border-radius: 45px;
+  outline: none;
+  border: none;
+}
+.btn1 a {
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  text-decoration: none;
+  color: #e38826;
+  padding: 15px;
+}
+/* COL-1 HOVER SECTION STARTED */
+.btn1:hover {
+  background: transparent;
+  border: 1px solid #fff;
+  cursor: pointer;
+}
+.btn1 a:hover{
+    font-family: "Lexend Deca", sans-serif;
+    letter-spacing: 0.5px;
+    font-weight: lighter;
+    color: hsl(0, 0%, 95%);
+    padding: auto;
+}
+/* COL-1 HOVER SECTION ENDED */
+
+/* COLUMN 1 ENDED */
+
+
+/* COLUMN 2 STARTED */
+.col-2 {
+  background: hsl(184, 100%, 22%);
+  display: inline-block;
+  width: 250px;
+  padding: 10px 0;
+  text-align: left;
+  margin: 0;
+}
+.col-2 svg {
+  margin: 30px 45px;
+}
+.col-2 h1 {
+  font-family: "Big Shoulders Display", cursive;
+  font-size: 36px;
+  color: hsl(0, 0%, 95%);
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 2px;
+  margin-left: 10px 0;
+  padding: 15px 45px;
+  text-align: left;
+}
+.col-2 p {
+  color: hsla(0, 0%, 100%, 0.75);
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 12px;
+  padding: 10px 45px;
+  line-height: 20px;
+  text-align: left;
+  margin-bottom: 80px;
+  letter-spacing: 1px;
+}
+.btn2 {
+  position: relative;
+  left: 42px;
+  bottom: 35px;
+  width: 150px;
+  height: 45px;
+  border-radius: 45px;
+  outline: none;
+  border: none;
+}
+.btn2 a {
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  text-decoration: none;
+  color: hsl(184, 100%, 22%);
+  padding: 15px;
+}
+/* COL-2 HOVER SECTION STARTED */
+.btn2:hover {
+  background: transparent;
+  border: 1px solid #fff;
+  cursor: pointer;
+}
+.btn2 a:hover{
+    font-family: "Lexend Deca", sans-serif;
+    letter-spacing: 0.5px;
+    font-weight: lighter;
+    color: hsl(0, 0%, 95%);
+    padding: auto;
+}
+/* COL-2 HOVER SECTION ENDED */
+
+/* COLUMN 2 ENDED HERE */
+
+
+/* COLUMN 3 STARTED */
+
+.col-3 {
+  background: hsl(179, 100%, 13%);
+  display: inline-block;
+  width: 250px;
+  padding: 10px 0;
+  text-align: left;
+  margin: 0;
+  border-top-right-radius: 7px;
+  border-bottom-right-radius: 7px;
+}
+.col-3 svg {
+  margin: 30px 45px;
+}
+.col-3 h1 {
+  font-family: "Big Shoulders Display", cursive;
+  font-size: 36px;
+  color: hsl(0, 0%, 95%);
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 2px;
+  margin-left: 10px 0;
+  padding: 15px 45px;
+  text-align: left;
+}
+.col-3 p {
+  color: hsla(0, 0%, 100%, 0.75);
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 12px;
+  padding: 10px 45px;
+  line-height: 20px;
+  text-align: left;
+  margin-bottom: 80px;
+  letter-spacing: 1px;
+}
+.btn3 {
+  position: relative;
+  left: 42px;
+  bottom: 35px;
+  width: 150px;
+  height: 45px;
+  border-radius: 45px;
+  outline: none;
+  border: none;
+}
+.btn3 a {
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  text-decoration: none;
+  color: hsl(179, 100%, 13%);
+  padding: 15px;
+}
+/* COL-3 HOVER SECTION STARTED */
+.btn3:hover {
+  background: transparent;
+  border: 1px solid #fff;
+  cursor: pointer;
+}
+.btn3 a:hover{
+    font-family: "Lexend Deca", sans-serif;
+    letter-spacing: 0.5px;
+    font-weight: lighter;
+    color: hsl(0, 0%, 95%);
+    padding: auto;
+}
+/* COL-3 HOVER SECTION ENDED */
+
+/* COLUMN 3 ENDED HERE */
