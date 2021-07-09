@@ -6,7 +6,7 @@ body {
   background-color: white;
 }
 .container {
-  width: fit-content;
+  width: 1000px;
   position: absolute;
   transform: translate(-50%, -50%);
   top: 50%;
